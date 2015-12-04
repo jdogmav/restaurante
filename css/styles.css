@@ -46,5 +46,14 @@ nav.navbar.navbar-default{
   background-size: cover;
   background-position: center;
 }
+.slide-one-logo{
+  max-height: 300px;
+}
+
+
+
+
+
+
 
 /*end of carousel*/
