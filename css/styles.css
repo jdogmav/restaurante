@@ -48,7 +48,16 @@ nav.navbar.navbar-default{
 }
 .slide-one-logo{
   max-height: 300px;
+  padding-top: 5%;
 }
+div.carousel-caption{
+  padding-bottom:12%;
+}
+h2, p, button{
+  padding-bottom:5%;
+}
+
+
 
 
 
