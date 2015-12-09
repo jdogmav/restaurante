@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
 /*nav*/
 .navbar-default {
   background-color: transparent;
@@ -50,13 +51,93 @@ nav.navbar.navbar-default{
   max-height: 300px;
   padding-top: 5%;
 }
-div.carousel-caption{
-  padding-bottom:12%;
+.carousel-caption{
+  bottom:115px;
 }
 h2, p, button{
   padding-bottom:5%;
 }
-
+.btn-danger{
+  color:#fff;
+  background-color:#f8512f;
+  border-color:transparent;
+}
+.btn-danger:hover{
+  background-color: #d343426;
+  border-color:transparent;
+}
+.carousel-caption{
+  color:#fff;
+  font-size:17px;
+  text-shadow:0px 0px 3px rgba(0, 0, 0, 0,71);
+  font-weight:400;
+}
+#our-story{
+  min-height:600px;
+}
+#our-story .row{
+  margin-top:30px;
+}
+#our-story h1{
+  font-family:'Lobster', cursive;
+  color:#f8512f;
+  font-size:75px;
+  margin-top:0px;
+}
+#our-story h2{
+  margin-top:-15px;
+  font-size:24px;
+}
+#our-story p{
+  font-weight: 300px;
+  font-size: 17px;
+}
+h3.story-year{
+  font-weight: 700px;
+  font-size: 200px;
+  color:rgba(149, 147, 147, .2);
+  position: absolute;
+  z-index: -1;
+}
+#review{
+  background-image:url(../img/food_review.jpg);
+  background-size:cover;
+  background-position:center;
+  background-attachment:fixed;
+  min-height: 600px;
+}
+#review .center{
+  float:none;
+  margin:0 auto;
+  background-color:rgba(20, 20, 20, .6);
+  padding: 10px;
+  margin-top:145px;
+  border-radius: 5px;
+}
+#review h2{
+  font-family:'Lobster', cursive;
+  color:#f8512f;
+  font-size: 70px;
+  text-shadow:1px 1px 5px #0a0a0a;
+}
+#review p{
+  font-weight: 300px;
+  color:#fff;
+  font-size: 20px;
+  text-shadow:1px 1px 5px #0a0a0a;
+}
+#menu{
+  background-image: url(../img/black_linen.png);
+  background-size: cover;
+  padding-top: 40px;
+  padding-bottom: 70px;
+}
+.food{
+  color:#fff;
+  font-family:'Lobster' cursive;
+  padding-top:20px;
+  padding-bottom:20px;
+}
 
 
 
